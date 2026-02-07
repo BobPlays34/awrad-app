@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>أوراد | رفيقك المخلص في رحلة الحفظ</title>
+  <meta name="description" content="التطبيق الأول المتخصص في تتبع حفظك للقرآن الكريم بدقة الأثمان، ليجعل مراجعتك أكثر تنظيماً ويقينًا." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="أوراد | رفيقك المخلص في رحلة الحفظ" />
+  <meta property="og:description" content="التطبيق الأول المتخصص في تتبع حفظك للقرآن الكريم بدقة الأثمان، ليجعل مراجعتك أكثر تنظيماً ويقينًا." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <div class="navbar-brand">
+        <img src="images/app-icon.png" alt="أوراد" />
+        <span>أوراد - مَدارج الثُّمن</span>
+      </div>
+      <div class="navbar-links">
+        <a data-scroll-to="features">المميزات</a>
+        <a data-scroll-to="app">التطبيق</a>
+        <a data-scroll-to="download">التحميل</a>
+        <a data-scroll-to="reviews">التقييمات</a>
+        <button class="btn btn-primary" data-scroll-to="download">
+          <i data-lucide="download" style="width:16px;height:16px;"></i>
+          حمّل الآن
+        </button>
+      </div>
+      <button class="btn-icon mobile-menu-btn" id="mobile-menu-btn">
+        <i data-lucide="menu" id="menu-icon-open"></i>
+        <i data-lucide="x" id="menu-icon-close" style="display:none;"></i>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a data-scroll-to="features">المميزات</a>
+      <a data-scroll-to="app">التطبيق</a>
+      <a data-scroll-to="download">التحميل</a>
+      <a data-scroll-to="reviews">التقييمات</a>
+      <button class="btn btn-primary" data-scroll-to="download">
+        <i data-lucide="download" style="width:16px;height:16px;"></i>
+        حمّل الآن
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-decorations">
+      <div class="hero-circle-1"></div>
+      <div class="hero-circle-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i data-lucide="book-open"></i>
+        <span>تطبيق متخصص لحفظة القرآن</span>
+      </div>
+      <h1 class="hero-title">
+        أوراد
+        <span class="accent">رفيقك في رحلة الحفظ</span>
+      </h1>
+      <p class="hero-subtitle">
+        تطبيق متكامل لمتابعة حفظ القرآن الكريم بدقة الأثمان والأرباع، يدعم رواية حفص عن عاصم ورواية ورش عن نافع، مع إحصائيات تفصيلية لكل مرتّل وتتبع التقدم حزباً بحزب
+      </p>
+      <div class="hero-buttons">
+        <button class="btn btn-lg btn-hero-download" data-scroll-to="download">
+          حمّل مباشرة
+          <i data-lucide="arrow-down" style="width:20px;height:20px;"></i>
+        </button>
+        <button class="btn btn-lg btn-outline-white" data-scroll-to="features">
+          <i data-lucide="chevron-down" style="width:16px;height:16px;"></i>
+          اكتشف المزيد
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-icon">
+            <i data-lucide="users"></i>
+          </div>
+          <div>
+            <div class="hero-stat-value">+١٠٠٠</div>
+            <div class="hero-stat-label">حافظ</div>
+          </div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-icon">
+            <i data-lucide="star" fill="currentColor"></i>
+          </div>
+          <div>
+            <div class="hero-stat-value">4.9</div>
+            <div class="hero-stat-label">تقييم</div>
+          </div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-icon">
+            <i data-lucide="book-open"></i>
+          </div>
+          <div>
+            <div class="hero-stat-value">٢٤٠</div>
+            <div class="hero-stat-label">ثُمن</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-indicator-inner">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section features-section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:4rem;">
+        <div class="section-badge section-badge-accent">المميزات</div>
+        <h2 class="section-title">لماذا <span class="text-primary">أوراد</span>؟</h2>
+        <p class="section-subtitle">أدوات مصممة خصيصاً لمساعدتك في رحلة الحفظ</p>
+      </div>
+      <div class="features-grid features-grid-4">
+        <div class="card feature-card">
+          <div class="feature-icon">
+            <i data-lucide="book-open"></i>
+          </div>
+          <h3 class="feature-title">تتبع بدقة الأثمان</h3>
+          <p class="feature-desc">سجّل حفظك ثُمناً بثُمن وربعاً بربع لكل حزب من أحزاب القرآن الستين، مع عرض تفصيلي لكل ثُمن يتضمن اسم السورة وبداية الآية</p>
+        </div>
+        <div class="card feature-card">
+          <div class="feature-icon">
+            <i data-lucide="users"></i>
+          </div>
+          <h3 class="feature-title">دعم تعدد الروايات والمرتّلين</h3>
+          <p class="feature-desc">يدعم رواية حفص عن عاصم ورواية ورش عن نافع، مع إمكانية إضافة عدة مرتّلين وتتبع تقدم كل واحد منهم على حدة بنسب مئوية دقيقة</p>
+        </div>
+        <div class="card feature-card">
+          <div class="feature-icon">
+            <i data-lucide="bar-chart-3"></i>
+          </div>
+          <h3 class="feature-title">إحصائيات تفصيلية</h3>
+          <p class="feature-desc">شريط تقدم لكل حزب يوضح نسبة الإكمال، مع نسبة التقدم العام لكل مرتّل، وإمكانية تحديد عدد الأحزاب المحفوظة دفعة واحدة</p>
+        </div>
+        <div class="card feature-card">
+          <div class="feature-icon">
+            <i data-lucide="palette"></i>
+          </div>
+          <h3 class="feature-title">تصميم إسلامي عصري</h3>
+          <p class="feature-desc">واجهة أنيقة بزخارف إسلامية تدعم الوضع الليلي، مع آيات قرآنية ملهمة تظهر في الشاشة الرئيسية لتحفيزك على المواصلة</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Showcase -->
+  <section id="app" class="section app-section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:4rem;">
+        <div class="section-badge section-badge-primary">التطبيق</div>
+        <h2 class="section-title">تجربة <span class="text-accent">سلسة</span> وبسيطة</h2>
+        <p class="section-subtitle">واجهة مصممة لتسهيل تتبع حفظك للقرآن الكريم</p>
+      </div>
+      <div class="screenshots-carousel">
+        <div class="screenshot-wrap">
+          <div class="glow"></div>
+          <div class="screenshot-inner">
+            <img src="images/screenshot-1.jpg" alt="شاشة إضافة مرتّل جديد واختيار الرواية" />
+          </div>
+        </div>
+        <div class="screenshot-wrap">
+          <div class="glow"></div>
+          <div class="screenshot-inner">
+            <img src="images/screenshot-2.jpg" alt="شاشة المرتّلين المسجلين ونسب التقدم" />
+          </div>
+        </div>
+        <div class="screenshot-wrap">
+          <div class="glow"></div>
+          <div class="screenshot-inner">
+            <img src="images/screenshot-3.jpg" alt="شاشة تتبع الأثمان لكل حزب" />
+          </div>
+        </div>
+        <div class="screenshot-wrap">
+          <div class="glow"></div>
+          <div class="screenshot-inner">
+            <img src="images/screenshot-4.jpg" alt="شاشة تحديد الأحزاب المحفوظة" />
+          </div>
+        </div>
+      </div>
+      <p class="swipe-hint">← اسحب لمشاهدة المزيد →</p>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section id="download" class="section download-section">
+    <div class="container">
+      <div class="card download-card">
+        <div class="download-top">
+          <div class="download-icon">
+            <img src="images/app-icon.png" alt="أوراد" />
+          </div>
+          <div class="download-info">
+            <h2 class="download-title">تطبيق أوراد</h2>
+            <p class="download-version">الإصدار 1.0.0 | أندرويد</p>
+            <div class="download-badges">
+              <div class="download-badge">
+                <i data-lucide="shield" class="icon-primary"></i>
+                آمن 100%
+              </div>
+              <div class="download-badge">
+                <i data-lucide="zap" class="icon-primary"></i>
+                خفيف وسريع
+              </div>
+              <div class="download-badge">
+                <i data-lucide="star" class="icon-accent" fill="currentColor"></i>
+                تقييم 4.9
+              </div>
+            </div>
+            <a href="Awrad_App_v1.0.0-release.apk" download class="btn btn-primary">
+   تحميل APK مباشر
+   <i data-lucide="download"></i>
+</a>
+          </div>
+        </div>
+        <div class="download-stats">
+          <div class="download-stat">
+            <div class="download-stat-value primary">+٥٠٠</div>
+            <div class="download-stat-label">تحميل</div>
+          </div>
+          <div class="download-stat">
+            <div class="download-stat-value accent">4.9</div>
+            <div class="download-stat-label">تقييم</div>
+          </div>
+          <div class="download-stat">
+            <div class="download-stat-value primary">12MB</div>
+            <div class="download-stat-label">حجم الملف</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:4rem;">
+        <div class="section-badge section-badge-accent">التقييمات</div>
+        <h2 class="section-title">ماذا يقول <span class="text-primary">المستخدمون</span>؟</h2>
+        <p class="section-subtitle">آراء حقيقية من حفظة القرآن الذين يستخدمون أوراد</p>
+      </div>
+
+      <div class="reviews-grid" id="reviews-grid">
+        <div class="card review-card">
+          <div class="review-header">
+            <span class="review-name">أحمد محمد</span>
+            <div class="review-stars">
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+            </div>
+          </div>
+          <p class="review-text">تطبيق رائع جداً، ساعدني كثيراً في تنظيم مراجعتي للقرآن الكريم. أنصح به كل حافظ</p>
+        </div>
+
+        <div class="card review-card">
+          <div class="review-header">
+            <span class="review-name">عبدالله العمري</span>
+            <div class="review-stars">
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+            </div>
+          </div>
+          <p class="review-text">من أفضل التطبيقات التي استخدمتها لتتبع الحفظ. التصميم جميل والاستخدام سهل</p>
+        </div>
+
+        <div class="card review-card">
+          <div class="review-header">
+            <span class="review-name">سارة الأنصاري</span>
+            <div class="review-stars">
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-empty"></i>
+            </div>
+          </div>
+          <p class="review-text">تطبيق ممتاز وفكرة مبتكرة. تتبع الأثمان ميزة فريدة لم أجدها في أي تطبيق آخر</p>
+        </div>
+
+        <div class="card review-card">
+          <div class="review-header">
+            <span class="review-name">خالد الحربي</span>
+            <div class="review-stars">
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+            </div>
+          </div>
+          <p class="review-text">الحمد لله وجدت تطبيقاً يفهم احتياجات حفظة القرآن. الإحصائيات الذكية رائعة</p>
+        </div>
+
+        <div class="card review-card">
+          <div class="review-header">
+            <span class="review-name">فاطمة الزهراء</span>
+            <div class="review-stars">
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+              <i data-lucide="star" class="star-filled" fill="currentColor"></i>
+            </div>
+          </div>
+          <p class="review-text">واجهة التطبيق أنيقة جداً والوضع الليلي ممتاز. شكراً لفريق التطوير</p>
+        </div>
+      </div>
+
+      <!-- Review Form -->
+      <div class="card review-form-card">
+        <h3 class="review-form-title">أضف تقييمك</h3>
+        <form id="review-form">
+          <div class="form-group">
+            <label class="form-label" for="review-name">الاسم</label>
+            <input class="form-input" type="text" id="review-name" placeholder="أدخل اسمك" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">التقييم</label>
+            <div class="star-rating-input">
+              <button type="button"><i data-lucide="star" class="star-empty"></i></button>
+              <button type="button"><i data-lucide="star" class="star-empty"></i></button>
+              <button type="button"><i data-lucide="star" class="star-empty"></i></button>
+              <button type="button"><i data-lucide="star" class="star-empty"></i></button>
+              <button type="button"><i data-lucide="star" class="star-empty"></i></button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="review-comment">التعليق</label>
+            <textarea class="form-textarea" id="review-comment" placeholder="اكتب تعليقك هنا..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">
+            <i data-lucide="send" style="width:16px;height:16px;"></i>
+            إرسال التقييم
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-decorations">
+      <div class="cta-circle-1"></div>
+      <div class="cta-circle-2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content">
+        <img src="images/app-icon.png" alt="أوراد" class="cta-icon" />
+        <h2 class="cta-title">صُمم بأيدي <span class="accent">طلاب القرآن</span></h2>
+        <p class="cta-text">أوراد ليس مجرد تطبيق، بل رفيق يفهم تحديات رحلة الحفظ ويُعينك على الاستمرار بتتبع تقدمك الحقيقي يوماً بعد يوم</p>
+        <button class="btn btn-lg btn-accent" data-scroll-to="download">ابدأ رحلتك الآن</button>
+        <p class="cta-note">متوفر على أجهزة أندرويد</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="images/app-icon.png" alt="أوراد" />
+          <span>أوراد</span>
+        </div>
+        <p class="footer-copy">2026 أوراد - جميع الحقوق محفوظة</p>
+        <div class="footer-links">
+          <a href="#">الخصوصية</a>
+          <a href="#">الشروط</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js"></script>
+</body>
+</html>
